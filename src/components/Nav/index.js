@@ -9,7 +9,7 @@ export default function Nav() {
         <div>
           <div className="flex items-center justify-between py-3 md:py-5 md:block">
             <a href="javascript:void(0)">
-              <h2 className="text-2xl font-bold text-white">Jacob Gibson</h2>
+              <h1 className="text-3xl font-bold text-white">Jacob Gibson</h1>
             </a>
             <div className="md:hidden">
               <button
@@ -18,7 +18,6 @@ export default function Nav() {
               >
                 {navbar ? (
                   <svg
-                    xmlns="http://www.w3.org/2000/svg"
                     className="w-6 h-6 text-white"
                     viewBox="0 0 20 20"
                     fill="currentColor"
@@ -31,7 +30,6 @@ export default function Nav() {
                   </svg>
                 ) : (
                   <svg
-                    xmlns="http://www.w3.org/2000/svg"
                     className="w-6 h-6 text-white"
                     fill="none"
                     viewBox="0 0 24 24"

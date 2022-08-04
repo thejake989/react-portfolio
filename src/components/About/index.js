@@ -2,12 +2,12 @@ import React from "react";
 
 const About = () => {
   return (
-    <div class="py-16 bg-black">
-      <div class="container width:50% m-auto px-6 text-gray-500 md:px-12 xl:px-6">
-        <div class="space-y-6 md:space-y-0 md:flex md:gap-6 lg:gap-12">
+    <div class="py-16 bg-black float-right">
+      <div class="container width:50% m-auto px-6 text-gray-300 md:px-12 l:px-6">
+        <div class="space-y-6 md:space-y-0 md:flex md:gap-6 lg:gap-4">
           <div class="md:5/12 lg:w-5/12"></div>
           <div class="md:7/12 lg:w-6/12">
-            <h2 class="text-2xl text-gray-700 font-bold md:text-4xl">
+            <h2 class="text-2xl text-gray-600 font-bold md:text-4xl">
               About Me
             </h2>
             <p class="mt-6 text-gray-600">

@@ -8,10 +8,12 @@ import Footer from "../Footer";
 const Layout = () => {
   return (
     <div className="App">
-      <div className="page">
+      <div className="page p-4">
         <span className="tags top-tags">&lt; &gt;</span>
 
         <span className="tags bottom-tags">
+          <h3 class="text-2xl text-gray-300 font-bold md:text-3xl">Projects</h3>
+          <br />
           <Friends />
           <br />
           <Recipe />
