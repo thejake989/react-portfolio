@@ -2,8 +2,8 @@ import React from "react";
 
 const About = () => {
   return (
-    <div class="py-16 bg-black float-right">
-      <div class="container width:50% m-auto px-6 text-gray-300 md:px-12 l:px-6">
+    <div class="py-16 float-right">
+      <div class="container width:20% m-auto px-6 text-gray-300 md:px-12 l:px-6">
         <div class="space-y-6 md:space-y-0 md:flex md:gap-6 lg:gap-4">
           <div class="md:5/12 lg:w-5/12"></div>
           <div class="md:7/12 lg:w-6/12">
