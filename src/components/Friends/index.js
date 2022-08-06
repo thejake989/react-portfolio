@@ -1,8 +1,9 @@
 import React from "react";
+import "animate.css";
 
 const Friends = () => {
   return (
-    <div class="p-6 max-w-lg rounded-lg border border-black dark:text-white bg-gradient-to-r from-cyan-500 to-blue-500">
+    <div class=" p-6 max-w-lg rounded-lg border border-black dark:text-white bg-gradient-to-r from-cyan-500 to-blue-500">
       <a href="https://voting-with-friends.herokuapp.com/">
         <h5 class="mb-5 text-2xl font-bold tracking-tight text-black dark:text-white">
           Voting With Friends

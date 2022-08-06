@@ -1,8 +1,9 @@
 import React from "react";
+import "animate.css";
 
 const About = () => {
   return (
-    <div class="py-16 float-right">
+    <div class="animate__animated animate__fadeInDownBig py-16 float-right">
       <div class="container width:20% m-auto px-6 text-gray-300 md:px-12 l:px-6">
         <div class="space-y-6 md:space-y-0 md:flex md:gap-6 lg:gap-4">
           <div class="md:5/12 lg:w-5/12"></div>
