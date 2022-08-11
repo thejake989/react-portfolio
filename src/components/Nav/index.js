@@ -4,7 +4,7 @@ export default function Nav() {
   const [navbar, setNavbar] = useState(false);
 
   return (
-    <nav className="w-full bg-gradient-to-r from-purple-800 to-pink-900">
+    <nav className=" w-full bg-gradient-to-r from-purple-800 to-pink-900">
       <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
         <div>
           <div className="flex items-center justify-between py-3 md:py-5 md:block">
@@ -55,10 +55,10 @@ export default function Nav() {
           >
             <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
               <li className="text-white hover:text-green-400">
-                <a href="javascript:void(0)">Home</a>
+                <a href="javascript:void(0)">About</a>
               </li>
               <li className="text-white hover:text-green-400">
-                <a href="javascript:void(0)">About</a>
+                <a href="javascript:void(0)">Resume</a>
               </li>
               <li className="text-white hover:text-green-400">
                 <a href="javascript:void(0)">Projects</a>
