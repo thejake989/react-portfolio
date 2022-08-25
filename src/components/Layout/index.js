@@ -2,7 +2,7 @@ import React from "react";
 import Friends from "../Friends";
 import Buddy from "../Buddy";
 import Recipe from "../Recipe";
-import Card4 from "../Card4";
+import VotingWithFriends from "../VotingWithFriends";
 import Footer from "../Footer";
 
 const Layout = () => {
@@ -14,13 +14,13 @@ const Layout = () => {
         <span className="tags bottom-tags">
           <h3 class="text-2xl text-gray-300 font-bold md:text-3xl">Projects</h3>
           <br />
-          <Friends />
+          <VotingWithFriends />
           <br />
-          <Recipe />
+          <Friends />
           <br />
           <Buddy />
           <br />
-          <Card4 />
+          <Recipe />
           <Footer />
         </span>
       </div>
